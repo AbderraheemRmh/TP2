@@ -1,8 +1,6 @@
-first_name = ""
-laste_name = ""
 nom = input("veuillez saisir votre nom svp : ")
 prenom = input ("veuillez saisir votre prenom svp : ")
-if nom == laste_name or prenom == first_name : # if not nom or not prenom :
+if nom == "" or prenom == "" : # if not nom or not prenom :
     print ("erreur : le nom et le prenom doivent etre indiques")
 else :
     print ("bienvenue," + nom + " " + prenom + "!")
